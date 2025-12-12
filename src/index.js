@@ -12,7 +12,7 @@ import {store} from "./store/store"
 
 /** set up axios */
 axios.defaults.baseURL = "https://api.themoviedb.org/3"
-axios.defaults.headers.common['Authorization'] =`Bearer ${process.env.REACT_APP_ACCESS_TOKEN}`
+axios.defaults.headers.common['Authorization'] =`Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMGVkNzI5NTQ3NTBjMDk3NWZlOTQ0MTExYmFkOTJmYiIsIm5iZiI6MTczMjk1NjcyNC41NCwic3ViIjoiNjc0YWQyMzQ2OGE2MDNiMDZhMzkzMzJlIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.jPnqxGeONl3GslF8tyPj8k55e7nSCv2rZq8OsHX5eDs`
 // axios.defaults.headers.common['Authorization'] ="Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMGVkNzI5NTQ3NTBjMDk3NWZlOTQ0MTExYmFkOTJmYiIsIm5iZiI6MTczMjk1NjcyNC41NCwic3ViIjoiNjc0YWQyMzQ2OGE2MDNiMDZhMzkzMzJlIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.jPnqxGeONl3GslF8tyPj8k55e7nSCv2rZq8OsHX5eDs"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
